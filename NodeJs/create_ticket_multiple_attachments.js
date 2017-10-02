@@ -8,8 +8,8 @@ var API_KEY = "YOUR_API_KEY";
 var FD_ENDPOINT = "YOUR_DOMAIN";
 
 var PATH = "/api/v2/tickets";
-var enocoding_method = "base64";
-var auth = "Basic " + new Buffer(API_KEY + ":" + 'X').toString(enocoding_method);
+var encoding_method = "base64";
+var auth = "Basic " + new Buffer(API_KEY + ":" + 'X').toString(encoding_method);
 var URL =  "https://" + FD_ENDPOINT + ".freshdesk.com"+ PATH;
 
 var fields = {
